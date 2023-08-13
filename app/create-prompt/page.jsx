@@ -4,8 +4,6 @@ import {useState} from "react";
 import {useSession} from "next-auth/react";
 import {useRouter} from "next/navigation";
 import Form from "@components/Form";
-import {session} from "@node_modules/next-auth/core/routes";
-import {router} from "@node_modules/next/dist/client";
 
 const CreatePrompt = () => {
     const router = useRouter();
